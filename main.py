@@ -1,6 +1,4 @@
 from fastapi import FastAPI
-from app.database.session import init_db
-from contextlib import asynccontextmanager
 from app.controllers.user_controller import UserController
 from app.controllers.login_controller import LoginController
 from app.controllers.profile_controller import ProfileController
